@@ -1,0 +1,139 @@
+body{
+     background-color: hsl(214, 86%, 11%); 
+     max-width: 1440px;
+     
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.contanier{
+    background-color:hsl(214, 85%, 15%);
+    width: 250px;
+    position: relative;
+    left:720px;
+    top:200px;
+    padding: 20px;
+    border-radius: 15px;
+    
+
+}
+.card{
+    text-align: center;
+    
+}
+.imgprincipal{
+    width:250px;
+    border-radius: 5px;   
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+.ver{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center
+}
+#link:hover{
+   
+}
+.card h2, p{
+    text-align: justify;
+}
+    
+h2{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+p{
+    color:hsl(215, 19%, 45%);
+    margin-bottom: 20px;
+    
+}
+
+.logoethe{
+    float: left;
+    margin-top: 2px;
+    
+    
+}
+.textethe{
+    margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:turquoise;
+    font-size: 15px;
+    
+}
+.logorelo{
+   position: relative;
+   top: 3px;
+}
+.textrelo{
+    margin-left: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:hsl(215, 19%, 45%);
+}
+.ethe{
+    padding-bottom: 15px;
+}
+.linhahorizontal{
+    width: 100%;
+    border: 1px hsl(214, 62%, 22%) solid;
+    margin: auto;
+}
+.face{
+    width: 30px;
+    border:1px white solid;
+    border-radius: 100px;
+    float:left;
+    margin-top: 15px;
+}
+.textrodape{
+    position:relative;
+    top: 25px;
+    right:10px;
+    color:hsl(215, 19%, 45%);
+    font-weight: bold;
+}
+.cordetexto{
+    position:relative;
+    top: 25px;
+    right:10px;
+    margin-left: 5px;
+    color:rgb(199, 186, 186); 
+}
+.rodape{
+    overflow: hidden;
+}
+
+@media screen and (max-width:375px){
+
+
+    .contanier{
+        position: relative;
+        left: auto;
+        margin-left: 30px;
+
+    }
+}
+
+@media screen and (max-width:650px){
+
+
+    .contanier{
+        position: relative;
+        left: auto;
+        margin-left: 200px;
+
+    }
+}
